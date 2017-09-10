@@ -1,33 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+$myFont: 'Josefin Slab', serif;
 $myColor: #DDB8F4;
 
 
 
 body {
     background-image: url('image1.jpeg');
-    background-size:cover;
+    background-size :cover;
 }
 
 p{
-  font-size:60px;
-  color: $myColor;
+  font-size:70px;
+  font-family: $myFont;
+  color    : $myColor;
 }
 
 #more{
-  color:  $myColor;
+  color    : $myColor;
   font-size: 20px;
 }
 
 .container {
   text-align: center;
-  position: absolute;
-  top: 40%;
-  left:50%;
-  transform: translate(-50%,-50%);
+  position  : absolute;
+  top       : 40%;
+  left      :50%;
+  transform : translate(-50%,-50%);
 }
 
 .divider{
-    width:20px;
-    height:auto;
+    width  :20px;
+    height :auto;
     display:inline-block;
 }
 
@@ -36,24 +40,25 @@ a{
 }
 
 .box1 {
-    top: 50%;
-    display: inline-block;
-    padding: 15px 40px;
-    border: white;
+    font-family: $myFont;
+    top         : 50%;
+    display     : inline-block;
+    padding     : 15px 40px;
+    border      : white;
     border-width: 3px;
     border-style: solid;
-    font-size: 20px;
-    color:  $myColor;
+    font-size   : 20px;
+    color       : $myColor;
 }
 
 .box2 {
-  padding: 10px 30px;
-  color:  $myColor;
+  font-family: $myFont;
+  padding        : 10px 30px;
   text-decoration: none;
-  border: transparent;
-  border-width: 2px;
-  border-style: solid;
-  color:  $myColor;
+  border         : transparent;
+  border-width   : 2px;
+  border-style   : solid;
+  color          : $myColor;
 }
 
 #navigation {
@@ -61,24 +66,25 @@ a{
 }
 
 #navMain {
-    font-family: tahoma;
-    font-size: 20px;
-    padding: 20px 50px;
-
+    font-family: $myFont;
+    font-size  : 20px;
+    padding    : 20px 50px;
 }
 
 a.box1:hover{
-    color:  $myColor;
+    color          : $myColor;
     text-decoration: none;
-    border: white;
+    -webkit-transition: border .3s linear ;
+    border      : $myColor;
     border-width: 3px;
     border-style: solid;
 }
 
 #navMain a.box2:hover{
-    color:  $myColor;
-    text-decoration: none;
-    border: white;
-    border-width: 2px;
-    border-style: solid;
+  -webkit-transition: border 1s linear ;
+    color           : $myColor;
+    text-decoration : none;
+    border          : white;
+    border-width    : 2px;
+    border-style    : solid;
 }
