@@ -1,39 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<section>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+      <script src="myscripts.js"></script>
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
     <!-- Content Starts Here -->
-
-    <div class="container">
-    <p>
-    Jose Salinas<br><p id="more">More Than Just A Developer</p></br>
-    </p>
-      <div class="row justify-content-center">
-        <a href="resume.html" class="box1 col-4">Resume</a>
-        <a href="" class="box1 col-4">Contact</a>
-      </div>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="box2">Home</a>
+      <a href="#" class="box2">About</a>
+      <a href="#" class="box2">Education</a>
+      <a href="#" class="box2">Work</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
-    <nav id="navigation">
-        <ul id="navMain">
-            <a href="index.html" class="box2">Home</a>
-            <a href="#" class="box2">About</a>
-            <a href="#" class="box2">Education</a>
-            <a href="#" class="box2">Work</a>
-        </ul>
-    </nav>
+    <script type="text/javascript">
+      function PopupCenter(pageURL, title,w,h) {
+      var left = (screen.width/2)-(w/2);
+      var top = (screen.height/2)-(h/2);
+      var targetWin = window.open (pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+      return targetWin;
+      }
+    </script>
 
-
-
+    <div class="perfect-centering">
+      <p>Jose Salinas</p><br><p id="more">More Than Just A Developer</p></br>
+        <div class="row justify-content-center">
+          <a class="box1 col-4" href="resume.html">Resume</a>
+          <a class="box1 col-4" href="">Contact</a>
+        </div>
+    </div>
 
 
     <!-- Content Ends Here -->
-    </section>
 
-</div>
 </body>
 </html>
