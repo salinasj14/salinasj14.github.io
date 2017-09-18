@@ -12,7 +12,7 @@ body, html {
   -o-background-size: cover; }
 
 p {
-  font-size: 90px;
+  font-size: 100px;
   font-family: "Josefin Slab", serif;
   color: white; }
 
@@ -38,13 +38,13 @@ button {
   border: white;
   border-width: 3px;
   border-style: solid;
-  font-size: 20px;
+  font-size: 23px;
   color: white; }
 
 button.box1:hover {
-  color: #ce7ece;
-  text-decoration: none;
   -webkit-transition: border 0.3s linear;
+  text-decoration: none;
+  color: white;
   border: #ce7ece;
   border-width: 3px;
   border-style: solid; }
@@ -75,7 +75,7 @@ button.box1:hover {
 /* Change the color of links on hover */
 .topnav a:hover {
   font-weight: bold;
-  color: #ce7ece;
+  color: white;
   text-decoration: none;
   border: #ce7ece;
   border-width: 2px;

@@ -19,7 +19,7 @@ body, html {
 
 
 p{
-  font-size:90px;
+  font-size:100px;
   font-family: $myFont;
   color    : $myColor;
 }
@@ -50,14 +50,14 @@ button{
     border      : $myColor;
     border-width: 3px;
     border-style: solid;
-    font-size   : 20px;
+    font-size   : 23px;
     color       : $myColor;
 }
 
 button.box1:hover{
-    color          : $myPurple;
-    text-decoration: none;
     -webkit-transition: border .3s linear ;
+    text-decoration: none;
+    color          : $myColor;
     border      : $myPurple;
     border-width: 3px;
     border-style: solid;
@@ -92,7 +92,7 @@ button.box1:hover{
 /* Change the color of links on hover */
 .topnav a:hover {
   font-weight: bold;
-    color: $myPurple;
+    color: $myColor;
     text-decoration: none;
     border          : $myPurple;
     border-width    : 2px;

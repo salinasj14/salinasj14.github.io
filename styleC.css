@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab");
+body, html {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("house.JPG");
+  opacity: 1;
+  -webkit-animation: fadein 2s;
+  /* Safari and Chrome */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
+
+p {
+  padding: 10px 15px;
+  display: inline;
+  font-size: 50px;
+  font-family: "Josefin Slab", serif;
+  color: white; }
+
+span {
+  border-bottom: 2px dotted white;
+  cursor: pointer;
+  display: inline;
+  font-size: 50px;
+  font-family: "Josefin Slab", serif;
+  color: white; }
+
+@media screen and (max-width: 600px) {
+  p {
+    padding: 10px 15px;
+    display: inline-block;
+    font-size: 25px;
+    font-family: "Josefin Slab", serif;
+    color: white; }
+
+  span {
+    border-bottom: 2px dotted white;
+    cursor: pointer;
+    display: inline;
+    font-size: 25px;
+    font-family: "Josefin Slab", serif;
+    color: white; } }
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+/*# sourceMappingURL=styleC.css.map */
