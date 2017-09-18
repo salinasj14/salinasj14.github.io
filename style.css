@@ -4,46 +4,50 @@ body, html {
   height: 100%;
   background-size: cover;
   background-image: url("image1.jpeg");
+  opacity: 1;
   -webkit-animation: fadein 2s;
   /* Safari and Chrome */
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
-  background-color: rgba(0, 0, 0, 0.5); }
+  -o-background-size: cover; }
 
 p {
   font-size: 90px;
   font-family: "Josefin Slab", serif;
-  color: #E491FA; }
+  color: white; }
 
 #more {
   font-weight: bold;
-  color: #E491FA;
-  font-size: 30px; }
+  color: white;
+  font-size: 30px;
+  padding: 15px 40px; }
 
 a {
   text-decoration: none; }
 
 .box1 {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   font-weight: bold;
   font-family: "Josefin Slab", serif;
   top: 50%;
   display: inline-block;
   padding: 15px 40px;
-  border: white;
+  border: #ff99ff;
   border-width: 3px;
   border-style: solid;
   font-size: 20px;
-  color: #E491FA; }
+  color: white; }
 
 a.box1:hover {
-  color: #E491FA;
+  color: white;
   text-decoration: none;
   -webkit-transition: border 0.3s linear;
-  border: #E491FA;
+  border: white;
   border-width: 3px;
   border-style: solid; }
+
+.container {
+  screenwidth: 100%; }
 
 .perfect-centering {
   max-width: 500px;
@@ -57,9 +61,10 @@ a.box1:hover {
 
 /* Style the links inside the navigation bar */
 .topnav a {
+  font-weight: bold;
   font-family: "Josefin Slab", serif;
   float: right;
-  color: #E491FA;
+  color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -69,14 +74,16 @@ a.box1:hover {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  color: #E491FA;
+  font-weight: bold;
+  color: white;
   text-decoration: none;
-  border: #E491FA;
+  border: #ff99ff;
   border-width: 2px;
   border-style: solid; }
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
+  color: white;
   display: none; }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -85,6 +92,8 @@ a.box1:hover {
     display: none; }
 
   .topnav a.icon {
+    color: white;
+    text-decoration: none;
     border: none;
     float: left;
     display: block; }
@@ -93,14 +102,14 @@ a.box1:hover {
     font-family: "Josefin Slab", serif;
     float: right;
     display: block;
-    color: #E491FA;
+    color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
     border: none; }
 
   .topnav a:hover {
-    color: #E491FA;
+    color: white;
     text-decoration: none;
     border: none; } }
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */

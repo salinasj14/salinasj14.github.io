@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
 
 $myFont: 'Josefin Slab', serif;
-$myColor: #E491FA;
+$myColor: white;
 
 
 body, html {
-
   width: 100%;
   height: 100%;
   background-size: cover;
   background-image: url('image1.jpeg');
+  opacity: 1;
   -webkit-animation: fadein 2s; /* Safari and Chrome */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -28,6 +27,7 @@ p{
   font-weight: bold;
   color    : $myColor;
   font-size: 30px;
+  padding     : 15px 40px;
 }
 
 a{
@@ -35,13 +35,13 @@ a{
 }
 
 .box1 {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
     font-family: $myFont;
     top         : 50%;
     display     : inline-block;
     padding     : 15px 40px;
-    border      : white;
+    border      : #ff99ff;
     border-width: 3px;
     border-style: solid;
     font-size   : 20px;
@@ -57,8 +57,11 @@ a.box1:hover{
     border-style: solid;
 }
 
-.perfect-centering {
+.container {
+  screenwidth:100%;
+}
 
+.perfect-centering {
   max-width: 500px;
   text-align: center;
   margin: auto;
@@ -72,6 +75,7 @@ a.box1:hover{
 
 /* Style the links inside the navigation bar */
 .topnav a {
+    font-weight: bold;
     font-family: $myFont;
     float: right;
     color: $myColor;
@@ -85,21 +89,25 @@ a.box1:hover{
 
 /* Change the color of links on hover */
 .topnav a:hover {
+  font-weight: bold;
     color: $myColor;
     text-decoration: none;
-    border          : $myColor;
+    border          : #ff99ff;
     border-width    : 2px;
     border-style    : solid;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
+    color          : $myColor;
     display: none;
 }
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
+    color          : $myColor;
+    text-decoration: none;
     border: none;
     float: left;
     display: block;
