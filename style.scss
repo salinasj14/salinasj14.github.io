@@ -2,13 +2,14 @@
 
 $myFont: 'Josefin Slab', serif;
 $myColor: white;
+$myPurple: #ce7ece;
 
 
 body, html {
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-image: url('image1.jpeg');
+  background-image: url('house.jpg');
   opacity: 1;
   -webkit-animation: fadein 2s; /* Safari and Chrome */
   -webkit-background-size: cover;
@@ -24,14 +25,19 @@ p{
 }
 
 #more{
-  font-weight: bold;
+  font-weight: 900;
   color    : $myColor;
   font-size: 30px;
-  padding     : 15px 40px;
+  //padding     : 15px 40px;
 }
 
 a{
     text-decoration:none;
+}
+
+button{
+  cursor:pointer;
+  text-decoration:none;
 }
 
 .box1 {
@@ -41,24 +47,20 @@ a{
     top         : 50%;
     display     : inline-block;
     padding     : 15px 40px;
-    border      : #ff99ff;
+    border      : $myColor;
     border-width: 3px;
     border-style: solid;
     font-size   : 20px;
     color       : $myColor;
 }
 
-a.box1:hover{
-    color          : $myColor;
+button.box1:hover{
+    color          : $myPurple;
     text-decoration: none;
     -webkit-transition: border .3s linear ;
-    border      : $myColor;
+    border      : $myPurple;
     border-width: 3px;
     border-style: solid;
-}
-
-.container {
-  screenwidth:100%;
 }
 
 .perfect-centering {
@@ -90,9 +92,9 @@ a.box1:hover{
 /* Change the color of links on hover */
 .topnav a:hover {
   font-weight: bold;
-    color: $myColor;
+    color: $myPurple;
     text-decoration: none;
-    border          : #ff99ff;
+    border          : $myPurple;
     border-width    : 2px;
     border-style    : solid;
 }

@@ -6,8 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!-- Custom CSS Files -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
 
@@ -27,21 +29,11 @@
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
 
-    <script type="text/javascript">
-      function PopupCenter(pageURL, title,w,h)
-      {
-        var left = (screen.width/2)-(w/2);
-        var top = (screen.height/2)-(h/2);
-        var targetWin = window.open (pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
-        return targetWin;
-      }
-    </script>
-
     <div class="perfect-centering">
       <p>Jose Salinas</p><br><p id="more">More Than Just A Developer</p></br>
         <div class="row justify-content-center">
-          <a class="box1 col-4" href="Resume.pdf" target="_blank">Resume</a>
-          <a class="box1 col-4" href="">Contact</a>
+          <button class="box1 col-4 icon" onclick="PopupCenter('Resume.pdf', 'resume','900','500')">Resume</button>
+          <button class="box1 col-4">Contact</button>
         </div>
     </div>
 
