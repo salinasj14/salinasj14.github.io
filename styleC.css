@@ -11,12 +11,31 @@ body, html {
   -moz-background-size: cover;
   -o-background-size: cover; }
 
+a[href^=tel] {
+  color: inherit;
+  text-decoration: none; }
+
 p {
   padding: 0px 15px 0px 15px;
   display: inline;
   font-size: 50px;
   font-family: "Josefin Slab", serif;
   color: white; }
+
+p a {
+  border-bottom: 2px dotted white;
+  cursor: pointer;
+  font-family: "Josefin Slab", serif;
+  color: white;
+  text-decoration: none; }
+
+p a:hover {
+  -webkit-transition: 0.3s linear;
+  border-bottom: 2px dotted white;
+  cursor: pointer;
+  font-family: "Josefin Slab", serif;
+  color: #ce7ece;
+  text-decoration: none; }
 
 span {
   border-bottom: 2px dotted white;
@@ -25,6 +44,15 @@ span {
   font-size: 50px;
   font-family: "Josefin Slab", serif;
   color: white; }
+
+span:hover {
+  -webkit-transition: 0.3s linear;
+  border-bottom: 2px dotted white;
+  cursor: pointer;
+  display: inline;
+  font-size: 50px;
+  font-family: "Josefin Slab", serif;
+  color: #ce7ece; }
 
 .borders {
   border-style: solid;

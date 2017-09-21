@@ -74,6 +74,7 @@ button.box1:hover {
 
 /* Change the color of links on hover */
 .topnav a:hover {
+  -webkit-transition: border 0.3s linear;
   font-weight: bold;
   color: white;
   text-decoration: none;

@@ -91,7 +91,8 @@ button.box1:hover{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  font-weight: bold;
+    -webkit-transition: border .3s linear ;
+    font-weight: bold;
     color: $myColor;
     text-decoration: none;
     border          : $myPurple;
