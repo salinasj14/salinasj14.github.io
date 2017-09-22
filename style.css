@@ -111,7 +111,6 @@ button.box1:hover {
   /* Smartphones (portrait) ----------- */
   #intro {
     background-image: url("house2.jpg");
-    background-size: cover;
     opacity: 1;
     background-position: center;
     background-repeat: no-repeat;
