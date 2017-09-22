@@ -11,7 +11,7 @@ body, html {
 
 }
 
-#intro{
+body #intro{
   width: 100%;
   height: 100%;
   background-image: url('house.jpg');
@@ -139,11 +139,11 @@ button.box1:hover{
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   /* Smartphones (portrait) ----------- */
-    #intro{
+    body #intro{
       //width: 100%;
       //height: 1000px;
       background-image: url('house2.jpg');
-      background-size: cover;
+      background-size: 100% 100%;
       opacity: 1;
       // background-attachment: fixed;
       // background-position: center;
