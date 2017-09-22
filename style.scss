@@ -139,11 +139,11 @@ button.box1:hover{
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   /* Smartphones (portrait) ----------- */
-    #intro{
+    body #intro{
       background-image: url('house2.jpg');
-      //background-size: cover;
+      background-size: cover;
       opacity: 1;
-      //background-attachment: fixed;
+      background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
       -webkit-animation: fadein 2s; /* Safari and Chrome */
