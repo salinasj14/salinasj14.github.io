@@ -140,6 +140,10 @@ button.box1:hover{
     background-image: url('house2.jpg');
   }
 
+  .box1 {
+      margin      : 1px;
+  }
+
   .topnav a:not(:first-child){
     display: none;
   }
