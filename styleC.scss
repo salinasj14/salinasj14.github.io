@@ -77,6 +77,18 @@ span:hover{
 }
 
 @media screen and (max-width: 600px) {
+  body, html {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url('house2.jpg');
+    opacity: 1;
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  
   p{
     padding: 0px 15px;
     display:inline-block;

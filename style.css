@@ -1,18 +1,36 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Slab");
-body, html {
+#intro {
   width: 100%;
-  height: 100%;
+  height: 1000px;
+  background-image: url("house.jpg");
   background-size: cover;
-  background-image: url("house.JPG");
   opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   -webkit-animation: fadein 2s;
   /* Safari and Chrome */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; }
 
+#page1 {
+  width: 100%;
+  height: 1000px;
+  font-family: "Josefin Slab", serif; }
+
+#page2 {
+  width: 100%;
+  height: 1000px;
+  font-family: "Josefin Slab", serif; }
+
+#page3 {
+  width: 100%;
+  height: 1000px;
+  font-family: "Josefin Slab", serif; }
+
 p {
-  font-size: 100px;
+  font-size: 90px;
   font-family: "Josefin Slab", serif;
   color: white; }
 
@@ -38,7 +56,7 @@ button {
   border: white;
   border-width: 3px;
   border-style: solid;
-  font-size: 23px;
+  font-size: 21px;
   color: white; }
 
 button.box1:hover {
@@ -56,6 +74,7 @@ button.box1:hover {
 
 /* Add a black background color to the top navigation */
 .topnav {
+  position: static;
   background-color: #333;
   overflow: hidden; }
 
@@ -89,6 +108,22 @@ button.box1:hover {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
+  /* Smartphones (portrait) ----------- */
+  body, html {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("house2.jpg");
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-animation: fadein 2s;
+    /* Safari and Chrome */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; }
+
   .topnav a:not(:first-child) {
     display: none; }
 
