@@ -10,8 +10,9 @@
   opacity: 1;
   -webkit-animation: fadein 2s;
   /* Safari and Chrome */
-  -moz-background-size: cover;
-  -o-background-size: cover; }
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%; }
 
 #page1 {
   width: 100%;
@@ -28,15 +29,15 @@
   height: 1000px;
   font-family: "Josefin Slab", serif; }
 
-p {
-  font-size: 90px;
-  font-family: "Josefin Slab", serif;
-  color: white; }
-
 #more {
   font-weight: 900;
   color: white;
   font-size: 30px; }
+
+p {
+  font-size: 90px;
+  font-family: "Josefin Slab", serif;
+  color: white; }
 
 a {
   text-decoration: none; }
@@ -49,6 +50,7 @@ button {
   background-color: rgba(0, 0, 0, 0.8);
   font-weight: bold;
   font-family: "Josefin Slab", serif;
+  margin: 5px;
   top: 50%;
   display: inline-block;
   padding: 15px 40px;
@@ -65,11 +67,6 @@ button.box1:hover {
   border: #ce7ece;
   border-width: 3px;
   border-style: solid; }
-
-.perfect-centering {
-  max-width: 500px;
-  text-align: center;
-  margin: auto; }
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -109,6 +106,8 @@ button.box1:hover {
 @media screen and (max-width: 600px) {
   /* Smartphones (portrait) ----------- */
   #intro {
+    padding-top: 10px;
+    height: 900px;
     background-image: url("house2.jpg"); }
 
   .topnav a:not(:first-child) {

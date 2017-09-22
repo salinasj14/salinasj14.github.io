@@ -21,9 +21,9 @@ body, html {
   background-size: 100% 100%;
   opacity: 1;
   -webkit-animation: fadein 2s; /* Safari and Chrome */
-  //-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
   // font-family: $myFont;
   // color    : $myColor;
 }
@@ -49,16 +49,16 @@ body, html {
   //color    : $myColor;
 }
 
-p{
-  font-size:90px;
-  font-family: $myFont;
-  color    : $myColor;
-}
-
 #more{
   font-weight: 900;
   color    : $myColor;
   font-size: 30px;
+}
+
+p{
+  font-size:90px;
+  font-family: $myFont;
+  color    : $myColor;
 }
 
 a{
@@ -74,6 +74,7 @@ button{
     background-color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
     font-family: $myFont;
+    margin      : 5px;
     top         : 50%;
     display     : inline-block;
     padding     : 15px 40px;
@@ -91,12 +92,6 @@ button.box1:hover{
     border      : $myPurple;
     border-width: 3px;
     border-style: solid;
-}
-
-.perfect-centering {
-  max-width: 500px;
-  text-align: center;
-  margin: auto;
 }
 
 /* Add a black background color to the top navigation */
@@ -140,9 +135,11 @@ button.box1:hover{
 @media screen and (max-width: 600px) {
   /* Smartphones (portrait) ----------- */
   #intro{
+    padding-top: 10px;
+    height: 900px;
     background-image: url('house2.jpg');
   }
-  
+
   .topnav a:not(:first-child){
     display: none;
   }
