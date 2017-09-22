@@ -119,8 +119,6 @@ button.box1:hover {
     background-image: url("house2.jpg");
     background-size: 100% 100%;
     opacity: 1;
-    background-attachment: scroll !important;
-    background-position: center center !important;
     -webkit-animation: fadein 2s;
     /* Safari and Chrome */
     -webkit-background-size: 100% 100%;
