@@ -1,32 +1,32 @@
 /*
-Error: Invalid CSS after "... 061752e... ghj": expected "{", was "}"
-        on line 171 of ./style.scss
+Error: Invalid CSS after "      width: 100%": expected "{", was ";"
+        on line 148 of ./style.scss
 
-166:       // -webkit-animation: fadein 2s; /* Safari and Chrome *\/
-167:       // -webkit-background-size: cover;
-168:       // -moz-background-size: cover;
-169:       // -o-background-size: cover;
-170: >>>>>>> parent of 061752e... ghj
-171:     }
-172: 
-173:   .topnav a:not(:first-child){
-174:     display: none;
-175:   }
-176: 
+143: <<<<<<< HEAD
+144:     #intro{
+145: =======
+146:     body #intro{
+147: >>>>>>> parent of cbb0dc8... wall
+148:       width: 100%;
+149:       height: 1000px;
+150:       background-image: url('house2.jpg') no-repeat fixed;
+151:       background-size: cover;
+152:       opacity: 1;
+153:       background-attachment: fixed;
 
 Backtrace:
-./style.scss:171
+./style.scss:148
 /Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1278:in `expected'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1208:in `expected'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:1203:in `tok!'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:677:in `block'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:697:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:689:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:686:in `block_contents'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:678:in `block'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:697:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:689:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:686:in `block_contents'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:678:in `block'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/scss/parser.rb:697:in `block_child'
@@ -62,4 +62,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"... 061752e... ghj\": expected \"{\", was \"}\"\A         on line 171 of ./style.scss\A \A 166:       // -webkit-animation: fadein 2s; /* Safari and Chrome */\A 167:       // -webkit-background-size: cover;\A 168:       // -moz-background-size: cover;\A 169:       // -o-background-size: cover;\A 170: >>>>>>> parent of 061752e... ghj\A 171:     }\A 172: \A 173:   .topnav a:not(:first-child){\A 174:     display: none;\A 175:   }\A 176: "; }
+  content: "Error: Invalid CSS after \"      width: 100%\": expected \"{\", was \";\"\A         on line 148 of ./style.scss\A \A 143: <<<<<<< HEAD\A 144:     #intro{\A 145: =======\A 146:     body #intro{\A 147: >>>>>>> parent of cbb0dc8... wall\A 148:       width: 100%;\A 149:       height: 1000px;\A 150:       background-image: url('house2.jpg') no-repeat fixed;\A 151:       background-size: cover;\A 152:       opacity: 1;\A 153:       background-attachment: fixed;"; }
