@@ -14,9 +14,9 @@ body #intro {
   background-repeat: no-repeat;
   -webkit-animation: fadein 2s;
   /* Safari and Chrome */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; }
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%; }
 
 #page1 {
   width: 100%;
