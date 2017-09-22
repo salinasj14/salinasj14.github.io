@@ -145,9 +145,9 @@ button.box1:hover{
     background-image: url('house2.jpg');
     background-size: 100% 100%;
     opacity: 1;
-    // background-attachment: fixed;
-    // background-position: center;
-    // background-repeat: no-repeat;
+    background-attachment: none;
+    background-position: none;
+    background-repeat: none;
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
