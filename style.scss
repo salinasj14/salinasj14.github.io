@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+$myFont: 'Josefin Slab', serif;
+$myColor: white;
+$myPurple: #ce7ece;
+
+
+body, html {
+  //width: 100%;
+  //height: 1000px;
+
+}
+
+#intro{
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+  background-image: url('house.jpg');
+  background-size: 100% 100%;
+  opacity: 1;
+  -webkit-animation: fadein 2s; /* Safari and Chrome */
+  //-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  // font-family: $myFont;
+  // color    : $myColor;
+}
+
+#page1{
+  width: 100%;
+  height: 1000px;
+  font-family: $myFont;
+  //color    : $myColor;
+}
+
+#page2{
+  width: 100%;
+  height: 1000px;
+  font-family: $myFont;
+  //color    : $myColor;
+}
+
+#page3{
+  width: 100%;
+  height: 1000px;
+  font-family: $myFont;
+  //color    : $myColor;
+}
+
+p{
+  font-size:90px;
+  font-family: $myFont;
+  color    : $myColor;
+}
+
+#more{
+  font-weight: 900;
+  color    : $myColor;
+  font-size: 30px;
+}
+
+a{
+    text-decoration:none;
+}
+
+button{
+  cursor:pointer;
+  text-decoration:none;
+}
+
+.box1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    font-family: $myFont;
+    top         : 50%;
+    display     : inline-block;
+    padding     : 15px 40px;
+    border      : $myColor;
+    border-width: 3px;
+    border-style: solid;
+    font-size   : 21px;
+    color       : $myColor;
+}
+
+button.box1:hover{
+    -webkit-transition: border .3s linear ;
+    text-decoration: none;
+    color          : $myColor;
+    border      : $myPurple;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.perfect-centering {
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    position: static;
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    font-weight: bold;
+    font-family: $myFont;
+    float: right;
+    color: $myColor;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    border         : transparent;
+    border-width   : 2px;
+    border-style   : solid;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    -webkit-transition: border .3s linear ;
+    font-weight: bold;
+    color: $myColor;
+    text-decoration: none;
+    border          : $myPurple;
+    border-width    : 2px;
+    border-style    : solid;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    color          : $myColor;
+    display: none;
+}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  /* Smartphones (portrait) ----------- */
+  #intro{
+    background-image: url('house2.jpg');
+  }
+  
+  .topnav a:not(:first-child){
+    display: none;
+  }
+
+  .topnav a.icon {
+    color          : $myColor;
+    text-decoration: none;
+    border: none;
+    float: left;
+    display: block;
+  }
+  .topnav a {
+      font-family: $myFont;
+      float: right;
+      display: block;
+      color: $myColor;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      border: none;
+  }
+  .topnav a:hover {
+      color: $myColor;
+      text-decoration: none;
+      border          :none;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 856px) and (min-height: 414px) {
+.perfect-centering {
+     text-align: center;
+     position: absolute;
+     top: 50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+   }
+ }
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
