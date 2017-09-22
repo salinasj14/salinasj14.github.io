@@ -14,3 +14,13 @@ function PopupCenter(pageURL, title,w,h)
   var targetWin = window.open (pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
   return targetWin;
 }
+
+$(window).on('beforeunload', function()
+  {
+    $(window).scrollTop(0);
+  });
+
+  $(document).ready(function(){
+    $('html').animate({scrollTop:0}, 1);
+    $('body').animate({scrollTop:0}, 1);
+  });
