@@ -10,7 +10,7 @@ body #intro {
   background-size: 100% 100%;
   opacity: 1;
   background-attachment: scroll;
-  background-position: center;
+  background-position: initial;
   -webkit-animation: fadein 2s;
   /* Safari and Chrome */
   -webkit-background-size: 100% 100%;
