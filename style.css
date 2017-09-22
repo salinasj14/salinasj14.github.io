@@ -115,7 +115,7 @@ button.box1:hover {
   /* Smartphones (portrait) ----------- */
   #intro {
     background-image: url("house2.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
     opacity: 1; }
 
   .topnav a:not(:first-child) {
