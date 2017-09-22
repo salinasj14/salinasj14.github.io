@@ -9,9 +9,6 @@ body #intro {
   background-image: url("house.jpg");
   background-size: 100% 100%;
   opacity: 1;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
   -webkit-animation: fadein 2s;
   /* Safari and Chrome */
   -webkit-background-size: 100% 100%;
@@ -119,7 +116,6 @@ button.box1:hover {
     background-image: url("house2.jpg");
     background-size: 100% 100%;
     opacity: 1;
-    background-attachment: scroll !important;
     -webkit-animation: fadein 2s;
     /* Safari and Chrome */
     -webkit-background-size: 100% 100%;
