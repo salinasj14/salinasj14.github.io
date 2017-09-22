@@ -17,9 +17,9 @@ body #intro{
   background-image: url('house.jpg');
   background-size: 100% 100%;
   opacity: 1;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
-  background-repeat: no-repeat;
+  //background-repeat: no-repeat;
   -webkit-animation: fadein 2s; /* Safari and Chrome */
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
