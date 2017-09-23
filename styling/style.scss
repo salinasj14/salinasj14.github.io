@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+$myFont2: 'Indie Flower', cursive;
 
 $myFont: 'Josefin Slab', serif;
 $myColor: white;
 $myPurple: #ce7ece;
-
+$slightBlack:#333;
 
 body, html {
   width: 100%;
@@ -25,15 +28,23 @@ body, html {
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
-  // font-family: $myFont;
-  // color    : $myColor;
 }
 
 #splitter{
   width: 100%;
   height: 300px;
-  background-color: $myColor;
+  background-color: #DDDDDD;
+  h1{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 110px;
+    font-family: $myFont2;
+    font-weight: bold;
+    color:  $slightBlack;
+  }
 }
+
+
 
 #page1{
   width: 100%;
@@ -41,12 +52,12 @@ body, html {
   text-align: center;
   margin: auto;
   padding-top: 100px;
-  background-image: url('../pictures/laiza.jpg');
-  background-size: 100% 100%;
+  background-image: url('../pictures/laizabw.jpg');
+  //background-size: 100% 100%;
   background-attachment: fixed;
   opacity: 1;
   -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -webkit-background-size: cover;
+  -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
 }
@@ -57,8 +68,8 @@ body, html {
   text-align: center;
   margin: auto;
   padding-top: 100px;
-  background-image: url('../pictures/color.jpg');
-  background-size: 100% 100%;
+  background-image: url('../pictures/house3.jpg');
+  //background-size: 100% 100%;
   background-attachment: fixed;
   opacity: 1;
   -webkit-animation: fadein 2s; /* Safari and Chrome */
@@ -74,11 +85,11 @@ body, html {
   margin: auto;
   padding-top: 100px;
   background-image: url('../pictures/sunset.jpg');
-  background-size: 100% 100%;
+  //background-size: 100% 100%;
   background-attachment: fixed;
   opacity: 1;
   -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -webkit-background-size: cover;
+  -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
 }
@@ -137,7 +148,7 @@ button.box1:hover{
     bottom: 0;
     position: fixed;
     //position: static;
-    background-color: #333;
+    background-color: $slightBlack;
     overflow: hidden;
 }
 

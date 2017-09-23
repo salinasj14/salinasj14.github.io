@@ -1,15 +1,41 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Slab");
 @media only screen and (max-device-width: 1024px) {
   #intro {
+    background-attachment: scroll; }
+
+  #page1 {
+    background-attachment: scroll; }
+
+  #page2 {
+    background-attachment: scroll; }
+
+  #page3 {
     background-attachment: scroll; } }
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   /* Smartphones (portrait) ----------- */
   #intro {
-    background-attachment: scroll;
     padding-top: 60px;
     height: 800px;
     background-image: url("../pictures/house2.jpg"); }
+
+  #splitter h1 {
+    font-size: 80px; }
+
+  #page1 {
+    height: 800px;
+    padding-top: 100px;
+    background-image: url("../pictures/laizam.jpg"); }
+
+  #page2 {
+    height: 900px;
+    padding-top: 100px;
+    background-image: url("../pictures/house2l.jpg"); }
+
+  #page3 {
+    height: 900px;
+    padding-top: 100px;
+    background-image: url("../pictures/sunsetm.jpg"); }
 
   /* Add a black background color to the top navigation */
   .topnav {
