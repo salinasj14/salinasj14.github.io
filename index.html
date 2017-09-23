@@ -6,7 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Custom CSS Files -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styling/style.css">
+    <link rel="stylesheet" href="styling/mobile.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 </head>
@@ -17,14 +18,14 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-      <script src="myscripts.js"></script>
-      <script type="text/javascript" src="smoothscroll.js"></script>
+      <script src="scripts/myscripts.js"></script>
+      <script type="text/javascript" src="scripts/smoothscroll.js"></script>
     <!-- Content Starts Here -->
     <div class="topnav" id="myTopnav">
-      <a href="#myTopnav" class="box2">Home</a>
-      <a href="#page1" class="box2 smoothScroll">About</a>
-      <a href="#page2" class="box2 smoothScroll">Education</a>
-      <a href="#page3" class="box2 smoothScroll">Work</a>
+      <a href="#intro" class="smoothScroll">Home</a>
+      <a href="#page3" class="smoothScroll">Work</a>
+      <a href="#page2" class="smoothScroll">Education</a>
+      <a href="#page1" class="smoothScroll">About</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
 
@@ -38,15 +39,21 @@
           </div>
     </div>
 
+  <div id="splitter"></div>
+
   <div id="page1">
   <a id="about"></a>
     About page content goes here. <a href="#myTopnav" class="smoothScroll">Home</a>
   </div>
 
+  <div id="splitter"></div>
+
   <div id="page2">
     <a id="education"></a>
       Portfolio page content goes here.
   </div>
+
+  <div id="splitter"></div>
 
   <div id="page3">
     <a id="work"></a>
