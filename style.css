@@ -114,7 +114,6 @@ button.box1:hover {
 @media screen and (max-width: 600px) {
   /* Smartphones (portrait) ----------- */
   #intro {
-    background-attachment: scroll;
     padding-top: 10px;
     height: 900px;
     background-image: url("house2.jpg"); }
